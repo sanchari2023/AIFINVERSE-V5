@@ -290,7 +290,7 @@ export default function Newsletter() {
                 <div className="flex-1">
                   <div className="mb-6">
                     <div className="inline-block px-3 py-1 bg-purple-900/30 text-purple-300 rounded-full text-xs font-medium mb-3 border border-purple-800/50">
-                      India Market Insight
+                      Market Insights
                     </div>
                     <h3 className="text-2xl font-bold text-white leading-tight">
                       Will the US trade deal fix the Indian stock market?
