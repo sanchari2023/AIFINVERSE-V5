@@ -87,16 +87,16 @@ export default function Newsletter() {
       // Then, expand ONLY the requested article
       if (article === "india-markets") {
         console.log("Expanding Article 1 (India Markets)");
-        setExpandedArticle4(true);
+        setExpandedArticle1(true);
       } else if (article === "widowmaker") {
         console.log("Expanding Article 2 (Widowmaker)");
-        setExpandedArticle3(true);
+        setExpandedArticle2(true);
       } else if (article === "year-review") {
         console.log("Expanding Article 3 (Year Review)");
-        setExpandedArticle1(true);
+        setExpandedArticle3(true);
       } else if (article === "altseason") {
         console.log("Expanding Article 4 (Altseason)");
-        setExpandedArticle2(true);
+        setExpandedArticle4(true);
       } else {
         console.warn("Unknown article ID:", article);
         // Optionally, expand the first article as fallback
@@ -372,7 +372,7 @@ export default function Newsletter() {
                     </p>
                   </div>
 
-                  {expandedArticle4 && (
+                  {expandedArticle1 && (
                     <div className="mt-8 text-gray-300 text-sm leading-relaxed space-y-8">
                       <div className="space-y-4">
                         <p className="leading-relaxed">
